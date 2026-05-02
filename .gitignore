@@ -1,0 +1,36 @@
+# WordPress core
+/wp-admin/
+/wp-includes/
+
+# Fichiers core
+/index.php
+/license.txt
+/readme.html
+/wp-*.php
+/xmlrpc.php
+
+# Config sensible
+wp-config.php
+
+# Uploads (images, médias)
+wp-content/uploads/
+
+# Cache
+wp-content/cache/
+wp-content/upgrade/
+
+# Logs
+*.log
+error_log
+
+# Dépendances
+node_modules/
+vendor/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
