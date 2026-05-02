@@ -6,6 +6,25 @@
 ### 📁 Structure des fichiers
 
 ```
+baobo-deco-child/
+├── style.css                  (styles globaux — déjà là)
+├── css/
+│   ├── page-accueil.css
+│   ├── page-a-propos.css
+│   ├── page-services.css
+│   ├── page-galerie.css
+│   ├── page-boutique.css
+│   ├── page-contact.css
+│   └── page-devis.css
+├── js/
+│   └── baobo-main.js
+├── functions.php
+├── header.php
+├── footer.php
+├── page-accueil.php
+└── page-a-propos.php
+
+
 baobo-deco-theme/
 ├── style.css          ← Identité du thème + toute la charte graphique
 ├── functions.php      ← Enqueue assets, WooCommerce FCFA, désactivation header/footer Astra
